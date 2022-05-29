@@ -157,7 +157,7 @@ img {
     border-radius: 5px;
 }
 
-#tips .project-info {
+#tips .tip-info {
     padding: 30px;
     flex-basis: 50%;
     height: 100%;
@@ -168,18 +168,18 @@ img {
     background-image: linear-gradient(60deg, rgb(211, 234, 219) 0%, #bce6e1 100%);
 }
 
-#tips .project-info h1 {
+#tips .tip-info h1 {
     font-size: 4rem;
     text-shadow: 0.1em 0.1em 0.2em rgb(123, 123, 123);
 }
 
-#tips .project-info h2 {
+#tips .tip-info h2 {
     margin-top: 20px;
     font-size: 2rem;
     text-shadow: 0em 0em 0.1em rgb(123, 123, 123);
 }
 
-#tips .project-info p {
+#tips .tip-info p {
     margin-top: 10px;
     font-size: 1.5rem;
 }
