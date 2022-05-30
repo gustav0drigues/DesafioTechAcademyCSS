@@ -25,6 +25,14 @@ header{
     align-items: center;
 }
 
+footer {
+    background-color: #2a9d8f;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
 img {
     height: 100%;
     width: 100%;
@@ -112,6 +120,7 @@ a, a:hover {
 #presentation h1:nth-child(3){
     animation-delay: 2.8s;
 }
+
 #presentation .cta{
     display: inline-block;
     padding: 10px 30px;
@@ -226,6 +235,21 @@ a, a:hover {
 }
 #tips .tip-item:hover .project-image img{
     transform: scale(1.2);
+}
+
+#tips .cta {
+    display: inline-block;
+    padding: 10px 10px;
+    color: #2a9d8f;
+    background-color: transparent;
+    border: 2px solid #2a9d8f;
+    font-size: 2rem;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 25px;
+    transition: .5s ease;
+    transition-property: background-color, color;
 }
 
 /* Keyframes */
