@@ -16,7 +16,16 @@ html{
 a{
     text-decoration: none;
 }
-img{
+
+header{
+    background-color: #2a9d8f;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -29,12 +38,49 @@ p {
     letter-spacing: 0.05rem;
 }
 
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+nav a{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+nav img {
+    width: 20px;
+    height: 20px;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
 .container{
     min-height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.osamr-contact-container{
+    display: flex;
+    align-items: center;
+}
+
+.osamr-contact-container img{
+    margin-right: 10px;
+}
+
+.project-image {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 0 0 10px 10px;
 }
 
 
@@ -146,7 +192,7 @@ p {
     justify-content: center;
     flex-direction: column;
     border-radius: 10px 10px 0 0;
-    background-image: linear-gradient(60deg, rgb(211, 234, 219) 0%, #bce6e1 100%);
+    background-image: linear-gradient(45deg, rgb(172, 193, 180) 0%, #5f8b80 100%);
 }
 
 #tips .tip-info h1{
