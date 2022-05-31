@@ -274,7 +274,7 @@ a, a:hover {
 }
 
 /* Media Query */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 300px) {
     #tips .tip-item {
         flex-direction: row;
         height: 400px;
