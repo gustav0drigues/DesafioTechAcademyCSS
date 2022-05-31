@@ -105,7 +105,7 @@ a, a:hover {
 #presentation h1{
     display: block;
     width: fit-content;
-    font-size: 8rem;
+    font-size: 5rem;
     position: relative;
     color: transparent;
     animation: text_reveal .5s ease forwards;
@@ -207,7 +207,6 @@ a, a:hover {
 
 #tips .tip-info h1{
     font-size: 4rem;
-    text-transform: capitalize;
     text-shadow: 0.1em 0.1em 0.2em rgb(123, 123, 123);
 }
 
@@ -241,15 +240,17 @@ a, a:hover {
 
 #tips .cta {
     display: inline-block;
-    padding: 5px 5px;
-    color: black;
-    background-color: #2a9d8f;
-    border: 2px solid black;
-    border-radius: 10px;
-    font-size: 1rem;
+    padding: 10px 10px;
+    color: #2a9d8f;
+    background-color: transparent;
+    border: 2px solid #2a9d8f;
+    font-size: 2rem;
+    text-shadow: 0.1em 0.1em 0.2em black;
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-top: 25px;
+    transition: .5s ease;
+    transition-property: background-color, color;
 }
 
 /* Keyframes */
