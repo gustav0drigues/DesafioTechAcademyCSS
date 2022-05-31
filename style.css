@@ -10,7 +10,7 @@ html{
     font-size: 10px;
     font-family: 'Rokkitt', serif;
     scroll-behavior: smooth;
-    background-color: rgb(31, 28, 28);
+    background-color: black;
 }
 
 a{
@@ -39,10 +39,10 @@ img {
     object-fit: fill;
 }
 p {
-    font-size: 2rem;
-    margin-top: 10px;
+    font-size: 1.4rem;
+    margin-top: 5px;
     line-height: 2.5rem;
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: 0.05rem;
 }
 
@@ -204,7 +204,6 @@ a, a:hover {
     background-image: linear-gradient(45deg, rgb(172, 193, 180) 0%, #5f8b80 100%);
 }
 
-
 #tips .tip-info h1{
     font-size: 4rem;
     text-shadow: 0.1em 0.1em 0.2em rgb(123, 123, 123);
@@ -212,7 +211,7 @@ a, a:hover {
 
 #tips .tip-info h2{
     margin-top: 20px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-shadow: 0em 0em 0.1em rgb(123, 123, 123);
 }
 
@@ -275,7 +274,7 @@ a, a:hover {
 }
 
 /* Media Query */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 300px) {
     #tips .tip-item {
         flex-direction: row;
         height: 400px;
