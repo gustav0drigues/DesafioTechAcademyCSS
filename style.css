@@ -10,7 +10,7 @@ html{
     font-size: 10px;
     font-family: 'Rokkitt', serif;
     scroll-behavior: smooth;
-    background-color: black;
+    background-color: rgb(31, 28, 28);
 }
 
 a{
