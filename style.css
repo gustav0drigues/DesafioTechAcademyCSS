@@ -34,9 +34,9 @@ footer {
 }
 
 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
 }
 p {
     font-size: 1.4rem;
